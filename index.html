@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page with Custom Font</title>
+    <style>
+        @font-face {
+            font-family: 'PIX7SEGS';
+            src: url('PIX7SEGS.TTF') format('truetype');
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .custom-font {
+            font-family: 'PIX7SEGS', sans-serif;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the test page</h1>
+    <p class="custom-font">This is a line with the custom font applied.</p>
+</body>
+</html>
